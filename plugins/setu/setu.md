@@ -1,5 +1,5 @@
 # setu插件
-基于https://api.lolicon.app/#/setu实现的发送色图功能
+基于 https://api.lolicon.app/#/setu 实现的发送色图功能
 
 里面的具体请求参数可以自己在python里更改
 
