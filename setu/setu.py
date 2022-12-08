@@ -1,13 +1,10 @@
 #阉割版的色图插件
 
-
 import requests
 from cbr.plugin.info import MessageInfo
 from cbr.plugin.cbrinterface import CBRInterface
 
-
-CLIENT = "QQ"
-
+CLIENT = "cqhttp"
 
 METADATA = {
     'id': 'setu',
@@ -18,12 +15,10 @@ METADATA = {
     'link': ''
 }
 
-
 split_str = '"urls":{"regular":"'
 image1 = "[CQ:image,file="
 image2 = ",c=3,subType=0]"
 api_url = "https://api.lolicon.app/setu/v2?size=regular"
-
 
 def get_setu(url):
     image = ""
@@ -35,9 +30,8 @@ def get_setu(url):
     except:
         return None
 
-
 def setu(server, info):
-    if info.content == "#setu" or info.content == "#色图":
+    if info.content == "##setu" or info.content == "##色图":
         if info.source_client != CLIENT:
             server.reply(info, "哟，还敢要色图？我发了你能用MC看吗？笨比（")
             return
@@ -45,8 +39,6 @@ def setu(server, info):
         server.reply(info, "注意身体！")
         if image != None:
             server.reply(info, image)
-
-
 
 def on_message(server: CBRInterface, info: MessageInfo):
     setu(server, info)
