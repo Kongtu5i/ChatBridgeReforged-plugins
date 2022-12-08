@@ -8,7 +8,7 @@ Some CBR plugin repositories that I wrote personally or migrated from MCDR
 有插件使用问题想联系我的话，可以加我的QQ：3264868705 (记得备注来意，thk)  
 
 ### qq_pemission插件
-- 对cqhttp客户端增加权限功能  
+- 对cqhttp客户端增加权限功能(并且提供了一些api)  
 - 请配合我主页的CBR项目中的CBR_cqhttp.py使用，非常重要！(进行过魔改)  
 - 详细使用方法 https://github.com/Kongtu5i/ChatBridgeReforged-plugins/blob/main/qq_permission/qq_permission.md  
 
