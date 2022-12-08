@@ -10,3 +10,7 @@
 - 发送一些图片到qq群(什么图片？看名字喽)  
 - 可能导致机器人封号(免责先)  
 ### CBR-wiki插件
+- 游戏中快速查询wiki  
+- 移植自MCDR-WikiSearcher插件
+- 原作者 GamerNoTitle https://github.com/GamerNoTitle
+- 原插件链接网址 https://github.com/GamerNoTitle/MCDR-WikiSearcher
