@@ -14,5 +14,5 @@
 - 游戏中快速查询wiki  
 - 移植自MCDR-WikiSearcher插件
 - 原作者 GamerNoTitle https://github.com/GamerNoTitle
-- 原插件链接网址 https://github.com/GamerNoTitle/MCDR-WikiSearcher
+- 原插件链接 https://github.com/GamerNoTitle/MCDR-WikiSearcher
 - 详细使用方法 https://github.com/Kongtu5i/CBR-plugins/blob/main/CBR-wiki/CBR-wiki.md  
