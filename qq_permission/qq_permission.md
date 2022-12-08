@@ -18,7 +18,7 @@ permission_level是进行权限操作需要的权限等级
 
 ## api(仅面向开发者用户)  
 ### check_player_name(name: str)->bool  
-检查玩家名是否符合规范，并没有访问mojang服务器检查  
+检查玩家名是否符合规范，并没有访问mojang服务器检查，所以请谨慎使用  
 玩家名符合规范返回 True，否则为 False  
 ### get_qq_num_dict()->dict  
 返回完整的玩家列表，即qq_num.json中的全部信息  
