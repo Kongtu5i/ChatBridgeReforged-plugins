@@ -7,7 +7,7 @@
 有插件使用问题想联系我的话，可以加我的QQ：3264868705 (记得备注来意，thk)  
 
 ### setu插件
-- 发送一些图片到qq群(什么图片？看名字喽)  
+- 发送一些图片到qq群(什么图片？看插件名字喽)  
 - 可能导致机器人封号(免责先)  
 - 详细使用方法 https://github.com/Kongtu5i/CBR-plugins/blob/main/setu/setu.md  
 ### CBR-wiki插件
