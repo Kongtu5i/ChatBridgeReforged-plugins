@@ -3,13 +3,12 @@
 同时，qq_permission提供了一些api，可以供其他插件开发者使用，详细信息请下翻  
 注意：请下载我主页的CBR项目中的ChatBridgeReforged_cqhttp.py作为cqhttp客户端来使用  
 小声嘀咕：也可以使用我的ChatBridgeReforged_MC.py作为MC客户端，在ricky的MC客户端基础上增加了一点新功能  
+另外，非常重要：最开始使用时，需要手动绑定群内所有玩家的qq号
 
 ## 使用方法  
 配置文件里的command_prefix为命令前缀，可以自行修改  
 cqhttp_client_name为你cqhttp客户端的名字  
 permission_level是进行权限操作需要的权限等级  
-
-最开始使用时，请手动绑定群内所有玩家的qq号
 
 使用##permission呼出帮助（默认是这个，根据你配置文件里的command_prefix来的）  
 ##permission set <玩家名/QQ号> <权限等级> 设置玩家的权限等级  
