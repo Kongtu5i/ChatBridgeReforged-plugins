@@ -43,11 +43,11 @@ def is_num(str):
 
 #main function
 def setu(server, info):
-    if info.content.startswith("#setu") or info.content.startswith("#色图"):
+    if info.content.startswith("##setu") or info.content.startswith("##色图"):
         if info.source_client != CLIENT:
             server.reply(info, "哟，还敢要色图？我发了你能用MC看吗？笨比（")
             return
-        msg = info.content.replace("#setu", "").replace("#色图", "")
+        msg = info.content.replace("##setu", "").replace("##色图", "")
         if msg == "" or msg == " ":
             image = get_setu(api_url)
             server.reply(info, "注意身体！")
