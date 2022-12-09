@@ -1,5 +1,5 @@
 # ChatBridgeReforged-plugins
-我个人写的或者从MCDR移植的一些CBR插件存储库
+我个人写的或者从MCDR移植的一些CBR插件存储库  
 Some CBR plugin repositories that I wrote personally or migrated from MCDR
 
 ## 介绍
