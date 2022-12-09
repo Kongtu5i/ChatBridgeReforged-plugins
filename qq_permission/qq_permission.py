@@ -23,7 +23,7 @@ METADATA = {
     'name': 'QQ_Permission',
     'description': 'add cqhttp client permission function to CBR',
     'author': 'Kongtu_Si',
-    'link': ''
+    'link': 'https://github.com/Kongtu5i'
 }
 
 CONFIG_PATH = './config/qq_permission/config.json'
