@@ -36,4 +36,4 @@ permission_level是进行权限操作需要的权限等级
 一个玩家可能有多个MC账号，所以返回值为list  
 ### get_permission(qq_num: str)->int
 获取对应qq号的权限等级  
-返回值为权限等级(int)，如果qq号不存在，则返回默认权限等级2  
+返回值为权限等级(int)，如果qq号不存在，则返回默认权限等级1  
