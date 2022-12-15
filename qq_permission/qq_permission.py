@@ -154,7 +154,7 @@ def get_player(qq_num: str)-> list:
                 player_list.append(i)
         return player_list
 
-#获取对应qq号权限等级(默认权限等级为2)
+#获取对应qq号权限等级(默认权限等级为1)
 def get_permission(qq_num: str)-> int:
     '''
     返回值为权限等级(int)
@@ -164,7 +164,7 @@ def get_permission(qq_num: str)-> int:
     if qq_num in permission_dict.keys():
         return permission_dict[qq_num]
     else:
-        return 2
+        return 1
 
 #发送消息
 def send_message(server, info, msg: str) -> None:
