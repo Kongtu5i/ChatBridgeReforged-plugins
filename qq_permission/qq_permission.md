@@ -9,7 +9,7 @@
 配置文件里的command_prefix为命令前缀，可以自行修改  
 cqhttp_client_name为你cqhttp客户端的名字  
 permission_level是进行权限操作需要的权限等级  
-权限等级为1、2、3、4，其中4为最高，1为最低，默认权限等级2，类似MCDR的权限等级
+权限等级为1、2、3、4，其中4为最高，1为最低，默认权限等级1，类似MCDR的权限等级
 
 使用##permission呼出帮助（默认是这个，根据你配置文件里的command_prefix来的）  
 ##permission set <玩家名/QQ号> <权限等级> 设置玩家的权限等级  
